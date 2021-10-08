@@ -1,11 +1,11 @@
 interface ProductReviews {
   review: string;
-  scores: number;
+  score: number;
 }
 
 interface ProductPictures {
   thumbnail: string;
-  photo: number;
+  photo: string;
 }
 
 export interface Product {

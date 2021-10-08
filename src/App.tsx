@@ -1,10 +1,15 @@
+import styled from "@emotion/styled";
 import { ProductsList } from "pages/products-list";
+
+const StyledAppWrapper = styled.div({
+  position: "relative",
+});
 
 function App() {
   return (
-    <div className="App">
+    <StyledAppWrapper>
       <ProductsList />
-    </div>
+    </StyledAppWrapper>
   );
 }
 

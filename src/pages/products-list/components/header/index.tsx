@@ -5,7 +5,7 @@ import NanaLogo from "pages/products-list/components/header/logo.svg";
 
 const StyledHeader = styled.div({
   backgroundColor: Colors.Primary,
-  height: 80,
+  height: 60,
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
