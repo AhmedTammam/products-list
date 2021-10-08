@@ -36,7 +36,11 @@ const ImageGallery = ({ images }: { images: Product["pictures"] }) => {
   }, [images]);
   return (
     <StyledGalleryWrapper>
-      <StyledSelectedImage src={selectedImage} alt={selectedImage} />
+      <StyledSelectedImage
+        src={selectedImage}
+        alt={selectedImage}
+        data-testid="selected-img"
+      />
       <div
         style={{
           display: "flex",

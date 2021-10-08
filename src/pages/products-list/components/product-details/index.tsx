@@ -54,7 +54,7 @@ const ProductDetails = () => {
   const { name, pictures, reviews } = selectedProduct[0];
 
   return (
-    <StyledWrapper>
+    <StyledWrapper data-testid="product-details">
       <StyledContainer>
         <AiOutlineCloseCircle
           style={{
